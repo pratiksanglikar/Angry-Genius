@@ -1,0 +1,62 @@
+public interface SearchStrategy
+{
+	public int search(int[] array, int key);
+}
+
+
+
+public class LinearSearch : SearchStrategy
+{
+	public int search(int[] array, int key) {
+		for(int i = 0 ; i < array.Length ; i++) {
+			if(array[i] == key) {
+				return i;
+			}
+		}
+		return -1;
+	}
+}
+
+
+
+public class BinarySearch : SearchStrategy
+{
+	public int search(int[] array, int key) {
+		int min = 0;
+		int max = array.Length
+		while (min <= max)
+    	{
+    	   int mid = (min + max) / 2;
+    	   if (key == array[mid])
+    	   {
+    	        return ++mid;
+    	   }
+    	   else if (key < array[mid])
+    	   {
+        	   max = mid - 1;
+        	}
+       		else
+       		{
+        	    min = mid + 1;
+       		}
+   		}
+   		return -1;
+   }
+}
+
+
+
+public class Invoker {
+	
+	SearchStrategy strategy;
+	int array[] = {1,2,3,4,5};
+	int key = 3;
+	
+	public Invoker(SearchStrategy strategy) {
+		this.strategy = strategy;
+	}
+	
+	public int search() {
+		strategy.search(array, key);
+	}
+}
