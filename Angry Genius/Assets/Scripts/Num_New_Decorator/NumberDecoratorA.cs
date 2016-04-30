@@ -33,6 +33,7 @@ public class NumberDecorator : NewDecorator {
 			Debug.Log("ConcreteDecoratorA.getGameObject()---"+"Displaying alphabate"+number_array[index]);
 		}
 
+
 		Material newMat = Resources.Load(number_array[index], typeof(Material)) as Material;
 
 		gameObject.GetComponent<Renderer>().material = newMat;
