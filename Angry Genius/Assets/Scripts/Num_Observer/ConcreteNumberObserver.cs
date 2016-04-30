@@ -9,4 +9,15 @@ public class ConcreteNumberObserver : AbstractNumberObserver {
 
 	}
 
+
+
+	
+	public ConcreteNumberObserver(){
+		
+	}
+	
+	public ConcreteNumberObserver( ConcreteAlphaState theSubject )
+	{
+		this.state = theSubject ;
+	}
 }
