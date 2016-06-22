@@ -2,6 +2,7 @@
 ## Introduction
 Angry Genius is a Unity3D based fun action game where the player is given a target to achieve.
 Player's aim is to strategically collect the numbered boxes to make the addition equal to given target while saving himself from the enemies.
+- [Video](https://www.youtube.com/watch?v=z5-WC3bMcVc)
 
 *This game is a part of group project in __CMPE-202 course in San José State University__*
 
@@ -41,6 +42,6 @@ This is most difficult level to crack. Player is given target of 500 to achieve.
 ![alt text](http://i.imgur.com/V53vdvS.jpg "Automatic level up after completing first level.")
 
 ## Contact 
-[LinkedIn](https://www.linkedin.com/in/psanglikar)
-[Email](mailto:pratiksanglikar@gmail.com)
-[Portfolio](http://branded.me/pratiksanglikar)
+- [LinkedIn](https://www.linkedin.com/in/psanglikar)
+- [Email](mailto:pratiksanglikar@gmail.com)
+- [Portfolio](http://branded.me/pratiksanglikar)
